@@ -1,3 +1,4 @@
+import DashBoard from './dashboard'
 import './loginpg.css'
 import SplineScene from './splinescene'
 
@@ -17,8 +18,8 @@ function Login() {
 
         <label for="password">Password</label>
         <input type="password" placeholder="Password" id="password"/>
-
-        <button className='logbtn'>Log In</button>
+<a href="/dash"> <div className="logbtn">
+      Log IN</div></a>
     </form>
              </>
              )
