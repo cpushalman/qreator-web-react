@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    position: relative ;
+bottom: 50px;
+left: 25px;
+   font-size:.5rem;
+}
+.info{
+    width: fit-content;
+    height: auto;
+    font-family: "Poppins", sans-serif;
+   position: absolute; 
+    font-size: 8rem;
+    z-index: 1 ;  
+    top: 30%;
+    left: 24%;
+    cursor: auto;
+    user-select: none;
+}
+.Login-btn {
+    transition: box-shadow 500ms ease-in-out;
+    font-family:"Bytesized", sans-serif;
+    padding:6px 24px;
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    border-radius: 15px;
+    border: none;
+    background-color: aliceblue;
+    color: black;
+    font-size: 1.5rem;
+    opacity: 1;
+    box-shadow: 0 0 5px cyan,0 0 25px cyan;
+}
+.Login-btn:hover{
+    box-shadow: 0 0 5px cyan,0 0 25px cyan,0 0 50px cyan, 0 0 200px cyan;
+}
+a{
+        text-decoration: none;}
+#aboutus {
+position: absolute;
+top: 16px;
+left: 20px;
+font-family:"Bytesized", sans-serif ;
+    color: white;
+    font-size: 2rem;
+}
+    
