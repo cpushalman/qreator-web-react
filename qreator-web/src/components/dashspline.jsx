@@ -14,7 +14,9 @@ export default function DashSpline() {
         console.log("working");
       
         if(e.target.name=="Key GO")
-        { console.log("ENter");}
+        { console.log("ENter");
+
+        }
         else if(e.target.name=="Key 1")
         {
             console.log("Analytics");
@@ -29,6 +31,7 @@ export default function DashSpline() {
         else if(e.target.name=="Key 0")
         {
             console.log("Logout");
+            setTimeout(()=>{navigate('/');},1500);
         }
     };
     return (

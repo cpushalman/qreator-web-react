@@ -7,7 +7,7 @@ function DashBoard(props){
 return(
  <> <DashSpline></DashSpline>
   <h1>QREATOR</h1>
-  <p>"GO-Live <br />
+  <p id='dash'>"GO-Live <br />
   with Instant QRs"</p>
 
 

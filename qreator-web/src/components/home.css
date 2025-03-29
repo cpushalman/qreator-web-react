@@ -2,25 +2,26 @@
     margin: 0;
     padding: 0;
 }
-
-#content {
-    position: relative ;
-bottom: 50px;
-left: 25px;
-font-family:  "Poppins", sans-serif;
-   font-size:.5rem;
+.homecontainer{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
 }
+
+
 .info{
-    width: fit-content;
-    height: auto;
+ 
+    width: min-content;
+    height: min-content;
     font-family: "Bytesized", sans-serif;
    position: absolute; 
-    font-size: 8rem;
-    z-index: 1 ;  
+    font-size: 14rem;
+    z-index: 100 ;  
     top: 30%;
-    left: 24%;
+    left: 20%;
     cursor: auto;
     user-select: none;
+    text-align: left;
 }
 .Login-btn {
     transition: box-shadow 500ms ease-in-out;
@@ -40,15 +41,34 @@ font-family:  "Poppins", sans-serif;
 .Login-btn:hover{
     box-shadow: 0 0 5px cyan,0 0 25px cyan,0 0 50px cyan, 0 0 200px cyan;
 }
-a{height: 20px;
+a{
+    
+        height: 20px;
     width:min-content; text-decoration: none;}
+
 #aboutus {
- 
-position: relative;
-bottom: 235px;
-left: 600px;
+    width: 200px;
+    height:50px;
+    position: inherit;
+ top: 100%;
+   
+}
+#aboutus a p {
+position: absolute;
+
 font-family:"Bytesized", sans-serif ;
     color: white;
     font-size: 2rem;
 }
+
+#content {
+    text-align-last: bottom;
+width: max-content;
+    position: inherit ;
+font-family:  "Poppins", sans-serif;
+   font-size:.5rem;
+   bottom: 0;
+   left: 0;
+
     
+}
