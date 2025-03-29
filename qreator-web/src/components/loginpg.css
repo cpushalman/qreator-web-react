@@ -67,7 +67,7 @@ input{
 ::placeholder{
     color: #e5e5e5;
 }
-button{
+.logbtn {
     font-family: 'bytesized',sans-serif;
     margin-top: 50px;
     width: 100%;
