@@ -7,12 +7,13 @@
     position: relative ;
 bottom: 50px;
 left: 25px;
+font-family:  "Poppins", sans-serif;
    font-size:.5rem;
 }
 .info{
     width: fit-content;
     height: auto;
-    font-family: "Poppins", sans-serif;
+    font-family: "Bytesized", sans-serif;
    position: absolute; 
     font-size: 8rem;
     z-index: 1 ;  
@@ -39,12 +40,13 @@ left: 25px;
 .Login-btn:hover{
     box-shadow: 0 0 5px cyan,0 0 25px cyan,0 0 50px cyan, 0 0 200px cyan;
 }
-a{
-        text-decoration: none;}
+a{height: 20px;
+    width:min-content; text-decoration: none;}
 #aboutus {
-position: absolute;
-top: 16px;
-left: 20px;
+ 
+position: relative;
+bottom: 235px;
+left: 600px;
 font-family:"Bytesized", sans-serif ;
     color: white;
     font-size: 2rem;

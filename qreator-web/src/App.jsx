@@ -1,20 +1,31 @@
 import { useState } from 'react'
+import {BrowserRouter,Routes,Route} from 'react-router-dom'
 
 import './App.css'
 
-import SplineScene from './components/splinescene'
 import Home from './components/home.jsx'
+import Login from './components/loginpg.jsx'
 
 
 function App() {
   const [count, setCount] = useState(0) 
 
   return (
-    <>           <SplineScene/>
-          
-          
+    <>      <BrowserRouter>
+    <Routes>
+<Route index element={<Home/>}></Route>
+<Route path='/home' element={<Home/>}/>
+<Route path='/login' element={<Login/>}/>
 
-    <Home/>
+
+
+
+
+
+    </Routes>
+    
+    
+    </BrowserRouter>
   
       
 
