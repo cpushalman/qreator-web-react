@@ -1,7 +1,7 @@
 import Spline from '@splinetool/react-spline';
 import {BrowserRouter,Routes,Route, Navigate, useNavigate} from 'react-router-dom'
 
-import './splinescene.css'
+import './dashspline.css'
 import Dboard from './DashboardMain';
 
 
@@ -15,6 +15,7 @@ export default function DashSpline() {
       
         if(e.target.name=="Key GO")
         { console.log("ENter");
+            setTimeout(()=>{navigate('/genqr');},2000);
 
         }
         else if(e.target.name=="Key 1")
@@ -24,19 +25,20 @@ export default function DashSpline() {
         else if(e.target.name=="Key 2")
         {
             console.log("Dashboard");
-            setTimeout(()=>{navigate('/dash1');},1500);
+            setTimeout(()=>{navigate('/dash1');},2000);
             
        
         }
         else if(e.target.name=="Key 0")
         {
             console.log("Logout");
-            setTimeout(()=>{navigate('/');},1500);
+            setTimeout(()=>{navigate('/');},2000);
         }
     };
     return (
-    <div className="spline-scene">
+    <div className="dash-spline">
     <Spline scene="https://prod.spline.design/L5jSVUgZLc-SRGoZ/scene.splinecode"  onSplineKeyDown={onSplineKeyDown} />
+
     </div>);
 
  

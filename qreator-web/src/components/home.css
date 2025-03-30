@@ -3,6 +3,7 @@
     padding: 0;
 }
 .homecontainer{
+    pointer-events: none;
     width: 100vw;
     height: 100vh;
     text-align: center;
@@ -24,7 +25,8 @@
     text-align: left;
 }
 .Login-btn {
-    transition: box-shadow 500ms ease-in-out;
+    pointer-events: all;
+    transition: box-shadow 0.08s ease-in-out;
     font-family:"Bytesized", sans-serif;
     padding:6px 24px;
     position: absolute;
@@ -47,14 +49,15 @@ a{
     width:min-content; text-decoration: none;}
 
 #aboutus {
+    pointer-events: all;
     width: 200px;
     height:50px;
     position: inherit;
- top: 100%;
-   
+top: 10%;
+right: 0;   
 }
 #aboutus a p {
-position: absolute;
+
 
 font-family:"Bytesized", sans-serif ;
     color: white;
@@ -67,7 +70,7 @@ width: max-content;
     position: inherit ;
 font-family:  "Poppins", sans-serif;
    font-size:.5rem;
-   bottom: 0;
+   bottom: 10%;
    left: 0;
 
     

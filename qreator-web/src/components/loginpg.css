@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 body{
+   
     background-color: #080710;
 }
 .background{
@@ -15,10 +16,12 @@ body{
     transform: translate(-50%,-50%);
     left: 50%;
     top: 50%;
+    pointer-events: none;
 }
 
 
 form{
+   
     height: 520px;
     width: 400px;
     background-color: rgba(255,255,255,0.13);
@@ -38,6 +41,7 @@ form *{
     letter-spacing: 0.5px;
     outline: none;
     border: none;
+    
 }
 form h3{
     font-family: 'bytesized',sans-serif;
@@ -54,6 +58,7 @@ label{
     font-weight: 500;
 }
 input{
+    pointer-events: all;
     display: block;
     height: 50px;
     width: 100%;
@@ -68,6 +73,7 @@ input{
     color: #e5e5e5;
 }
 .logbtn {
+    pointer-events: all;
     font-family: 'bytesized',sans-serif;
     margin-top: 50px;
     width: 100%;

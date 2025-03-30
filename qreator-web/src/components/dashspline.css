@@ -1,10 +1,11 @@
-.dashspline {
+.dash-spline {
     position:absolute;
     top:0;
     left:0;
     width: 120%;
     height: 120%;
-    
+    z-index: 10;
+    pointer-events: none;
   
 
 }
